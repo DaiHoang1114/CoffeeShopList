@@ -12,11 +12,14 @@
 
 import SwiftUI
 
-@main
-struct CoffeeShopListApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
+struct ContentView: View {
+    var body: some View {
+        ShopList()
+    }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ShopList()
     }
 }

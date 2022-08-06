@@ -8,12 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		F4B5460C289E24BE00E288F5 /* CoffeeShopListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B5460B289E24BE00E288F5 /* CoffeeShopListApp.swift */; };
-		F4B5460E289E24BE00E288F5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B5460D289E24BE00E288F5 /* ContentView.swift */; };
 		F4B54610289E24C000E288F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4B5460F289E24C000E288F5 /* Assets.xcassets */; };
 		F4B54613289E24C000E288F5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4B54612289E24C000E288F5 /* Preview Assets.xcassets */; };
 		F4B5461D289E24C000E288F5 /* CoffeeShopListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B5461C289E24C000E288F5 /* CoffeeShopListTests.swift */; };
 		F4B54627289E24C000E288F5 /* CoffeeShopListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B54626289E24C000E288F5 /* CoffeeShopListUITests.swift */; };
 		F4B54629289E24C000E288F5 /* CoffeeShopListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B54628289E24C000E288F5 /* CoffeeShopListUITestsLaunchTests.swift */; };
+		F4B54638289E25D700E288F5 /* Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B54637289E25D700E288F5 /* Shop.swift */; };
+		F4B5463A289E262600E288F5 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B54639289E262600E288F5 /* ModelData.swift */; };
+		F4B5463F289E26C400E288F5 /* ColorConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B5463E289E26C400E288F5 /* ColorConstants.swift */; };
+		F4B54641289E293100E288F5 /* ShopRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B54640289E293100E288F5 /* ShopRow.swift */; };
+		F4B54643289E2A0000E288F5 /* ShopList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B54642289E2A0000E288F5 /* ShopList.swift */; };
+		F4B54645289E2A5E00E288F5 /* ShopCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B54644289E2A5E00E288F5 /* ShopCard.swift */; };
+		F4B54647289E2B6B00E288F5 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B54646289E2B6B00E288F5 /* MapView.swift */; };
+		F4B54649289E2BAE00E288F5 /* CirlcleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B54648289E2BAE00E288F5 /* CirlcleImage.swift */; };
+		F4B5464B289E2BE000E288F5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B5464A289E2BE000E288F5 /* ContentView.swift */; };
+		F4B5464D289E2E7800E288F5 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B5464C289E2E7800E288F5 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +45,6 @@
 /* Begin PBXFileReference section */
 		F4B54608289E24BE00E288F5 /* CoffeeShopList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeShopList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4B5460B289E24BE00E288F5 /* CoffeeShopListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeShopListApp.swift; sourceTree = "<group>"; };
-		F4B5460D289E24BE00E288F5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F4B5460F289E24C000E288F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4B54612289E24C000E288F5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F4B54618289E24C000E288F5 /* CoffeeShopListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeeShopListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +52,16 @@
 		F4B54622289E24C000E288F5 /* CoffeeShopListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeeShopListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4B54626289E24C000E288F5 /* CoffeeShopListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeShopListUITests.swift; sourceTree = "<group>"; };
 		F4B54628289E24C000E288F5 /* CoffeeShopListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeShopListUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F4B54637289E25D700E288F5 /* Shop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shop.swift; sourceTree = "<group>"; };
+		F4B54639289E262600E288F5 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		F4B5463E289E26C400E288F5 /* ColorConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorConstants.swift; sourceTree = "<group>"; };
+		F4B54640289E293100E288F5 /* ShopRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopRow.swift; sourceTree = "<group>"; };
+		F4B54642289E2A0000E288F5 /* ShopList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopList.swift; sourceTree = "<group>"; };
+		F4B54644289E2A5E00E288F5 /* ShopCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopCard.swift; sourceTree = "<group>"; };
+		F4B54646289E2B6B00E288F5 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		F4B54648289E2BAE00E288F5 /* CirlcleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CirlcleImage.swift; sourceTree = "<group>"; };
+		F4B5464A289E2BE000E288F5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F4B5464C289E2E7800E288F5 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +112,9 @@
 		F4B5460A289E24BE00E288F5 /* CoffeeShopList */ = {
 			isa = PBXGroup;
 			children = (
+				F4B54636289E25A800E288F5 /* Model */,
+				F4B54635289E259A00E288F5 /* Views */,
 				F4B5460B289E24BE00E288F5 /* CoffeeShopListApp.swift */,
-				F4B5460D289E24BE00E288F5 /* ContentView.swift */,
 				F4B5460F289E24C000E288F5 /* Assets.xcassets */,
 				F4B54611289E24C000E288F5 /* Preview Content */,
 			);
@@ -125,6 +144,30 @@
 				F4B54628289E24C000E288F5 /* CoffeeShopListUITestsLaunchTests.swift */,
 			);
 			path = CoffeeShopListUITests;
+			sourceTree = "<group>";
+		};
+		F4B54635289E259A00E288F5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F4B54640289E293100E288F5 /* ShopRow.swift */,
+				F4B54642289E2A0000E288F5 /* ShopList.swift */,
+				F4B54644289E2A5E00E288F5 /* ShopCard.swift */,
+				F4B54646289E2B6B00E288F5 /* MapView.swift */,
+				F4B54648289E2BAE00E288F5 /* CirlcleImage.swift */,
+				F4B5464A289E2BE000E288F5 /* ContentView.swift */,
+				F4B5464C289E2E7800E288F5 /* InfoView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F4B54636289E25A800E288F5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F4B54637289E25D700E288F5 /* Shop.swift */,
+				F4B54639289E262600E288F5 /* ModelData.swift */,
+				F4B5463E289E26C400E288F5 /* ColorConstants.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +300,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4B5460E289E24BE00E288F5 /* ContentView.swift in Sources */,
+				F4B54638289E25D700E288F5 /* Shop.swift in Sources */,
+				F4B5464D289E2E7800E288F5 /* InfoView.swift in Sources */,
+				F4B5464B289E2BE000E288F5 /* ContentView.swift in Sources */,
+				F4B54643289E2A0000E288F5 /* ShopList.swift in Sources */,
+				F4B5463A289E262600E288F5 /* ModelData.swift in Sources */,
+				F4B54641289E293100E288F5 /* ShopRow.swift in Sources */,
+				F4B54645289E2A5E00E288F5 /* ShopCard.swift in Sources */,
+				F4B54649289E2BAE00E288F5 /* CirlcleImage.swift in Sources */,
+				F4B5463F289E26C400E288F5 /* ColorConstants.swift in Sources */,
+				F4B54647289E2B6B00E288F5 /* MapView.swift in Sources */,
 				F4B5460C289E24BE00E288F5 /* CoffeeShopListApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
