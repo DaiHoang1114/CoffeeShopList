@@ -35,10 +35,6 @@ struct ShopCard: View {
                         .foregroundColor(.black)
                         .shadow(color: .gray, radius: 4, x: 5, y: 5)
                     .foregroundColor(.black)
-//                    Image(shop.imageLogoName).resizable()
-//                        .aspectRatio(contentMode: .fit)
-//                        .frame(height: 65)
-//                        .padding(.bottom, 5)
 
                     InfoView(email: "", address: shop.address, phone: "", description: "",
                              imageStartName: "location.fill", imageEndName: "")
